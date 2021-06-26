@@ -1,25 +1,138 @@
+/* =============================global selctors==================== */
 *{
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
     font-weight: 300;
-    text-align: justify;
+    /* text-align: justify; */
 }
-#name{
-    font-weight: 700;
+.top-sec{
+    background: url("images/header-bg.png");
+    /* border: 10px solid black; */
+    height: 700px;
+    background-repeat: no-repeat;
+    background-attachment:scroll;
+    padding: 10%;
+}
+h1#name{
+    font-weight: 800;
+    font-size: 300%;
     color: salmon;
+    margin-bottom: 5%;
+}
+h1{
+    font-weight: bold;
+    font-size: 200%;
+    font-weight: 300;
 }
 p{
     color: gray;
 }
 a{
-    margin-top: 1%;
+    margin-top: 4%;
     text-decoration: none;
     color: white;
     background-color:salmon;
-    padding: 1% 2%;
+    padding: 1% 10%;
     text-align: center;
-    border-radius: 3px;
+    border-radius: 5px;
     font-weight: 700;
+    font-size: 120%;
     display: inline-block;
+}
+.topimage{
+    height: 110%;
+    width: 100%;
+    margin-left: 8%;
+}
+div{
+    height: 50%;
+}
+.textdiv{
+    width: 30%;
+    /* border: 1px solid black; */
+    padding: 2% 0% 0% 9%;
+    margin: 8% 0% 1% 2%;
+    float: left;
+    /* background-color: black; */
+}
+.imagediv{
+    width: 50%;
+    height: 80%;
+    float: left;
+    margin: 0% 0% 0% 5%;
+    /* border: 1px solid black; */
+}
+.bioimage{
+    float: left;
+    margin: 0% 0% 0% 5%;
+    /* border: 1px solid black; */
+    height: 150%;
+    width: 80%;
+    margin-left: 20%;
+}
+.biotext{
+    width: 30%;
+    /* border: 1px solid black; */
+    padding: 2% 0% 0% 0%;
+    margin: 8% 0% 1% 5%;
+    float: left;
+    /* background-color: black; */
+}
+.biography{
+    /* border: 1px solid black; */
+    height: 500px;
+    background-image: url("images/biography-bg.png");
+    padding: 7%;
+}
+.biotext2{
+    margin-bottom: 2%;
+}
+.middleheader{
+    text-align: center;
+    font-weight: 800;
+    font-size: 300%;
+}
+.latest-work{
+    padding: 3%;
+    height: 500px;
+    background: url("images/latest-work-bg.png");
+}
+.work{
+    width: 24%;
+    float: left;
+    /* padding: 0 1%; */
+    margin: 4%;
+}
+.work img{
+    height: 300px;
+    width: 400px;
+    /* border: 1px solid black; */
+    margin: 1% 5%;
+}
+#foot{
+    text-align: center;
+    padding: 3%;
+}
+.client{
+    text-align: center;
+    margin: 5%;
+}
+.qoute{
+    color: black;
+    width: 40%;
+    margin-left: 30%;
+    margin-top: 2%;
+}
+.leaveMessage{
+    color:white;
+}
+.mail{
+    width: 50%;
+    margin-left: 23%;
+    border-radius: 15px;
+    padding: 1% 5%;
+}
+.mailadd{
+    font-weight: 700;
 }
